@@ -26,7 +26,7 @@ const myPet= "cat"
 const myPetname = "Monkey";
 const myPetAge = 2
 
-console.log ("I have a" + myPet +" her name is " + myPetname + " and she is" + myPetAge +" years old "
+console.log (" I have a " + myPet +" her name is " + myPetname + " and she is " + myPetAge +" years old "
 const outputString=`I have a ${myPet} her name is ${myPetName}and she is ${myPetAge}`
 myHeading.textContent= outputString
 
