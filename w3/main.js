@@ -1,34 +1,32 @@
-const myName = " Corey Thomas ";
-const myAge = 42;
+function determineHouseHoldPts() {
+ console.log(" Inside the function") ;
+}
 
-const jsIsWeird = myName + myAge
+let carbonFootprintPoints = 0;
+const numberInHousehold = 3;
 
-console.log(jsIsWeird)
-console.log(typeof jsIsWeird)
-console.log(typeof myAge)
+if (numberInHousehold === 1)  {
+ carbonFootprintPoints = carbonFootprintPoints + 14;
+}else if (numberInHousehold === 2) {
+carbonFootprint = carbonFootprintPoint + 12;
+} else if(numberInHousehold ===3) {
+    carbonFootprintPoints = carbonFootprintPoints + 10;
+  }  else if(numberInHousehold ===4) {
+ carbonFootprintPoints = carbonFootprintPoints + 8;
+   } else if(numberInHousehold===5) {
+    carbonFootprintPoints = carbonFootprintPoints + 6;
+   }else if(numberInHousehold===6)  {
+    carbonFootprintPoints = carbonFootprintPoints + 4;
+   }else if(numberInHousehold > 6)  {
+    carbonFootprintPoints = carbonFootprintPoints + 2;
 
-// what is order of precedence/ multiplying and division alwayscomes first, then add and substr.
-// write an example/ cant think of one
+    console.log(`Based on the number of members in the household of ${numberInHousehold} the points would be ${numberInHousehold}.`};
 
-const results =
-console.log(results)
-
-const amIhungry = true 
-console.log(typeof amIhungry)
-
-let myVar;
-console.log(typeof myVar);
-
-const myHeading =document.querySelector("h1");
-sole.log(typeof myHeading)
-
-const myPet= "cat"
-const myPetname = "Monkey";
-const myPetAge = 2
-
-console.log (" I have a " + myPet +" her name is " + myPetname + " and she is " + myPetAge +" years old "
-const outputString=`I have a ${myPet} her name is ${myPetName}and she is ${myPetAge}`
-myHeading.textContent= outputString
+let carbonFootprintPoint = 0;
+// const numberInHousehold = 3;
 
 
-// Dont know
+  // global scope
+
+  determineHouseHoldPts(3)
+  determineHouseHoldPts()
