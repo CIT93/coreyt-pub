@@ -29,4 +29,4 @@ let carbonFootprintPoint = 0;
   // global scope
 
   determineHouseHoldPts(3)
-  determineHouseHoldPts()
+  determineHouseHoldPts(4)
