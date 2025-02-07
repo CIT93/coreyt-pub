@@ -47,6 +47,13 @@ function start(houseHoldMembers, houseSize) {
 
 }
 function displayOutput(){
+for(arr of CFPDATA){
+    console.log(arr);
+    const output = document.getElementById("output");
+    const newP = document.createElement("p");
+    newP.textContent =`Carbon Footprint total is ${arr[4]}`;
+    output.appendChild(newP)
+}
 }
 
  
@@ -54,12 +61,12 @@ start(5,"apt");
 start(4, "large");
 start(3, "medium");
 
-displayOutput()
+displayOutput();
 
-// 4 in the Housesize Points plus 7 in the householdPts. I multiplied 4 times 7
- start(6, "apt")
- start(5) "large
- start(4 "medium")
+
+ start(6, "apt");
+ start(5, "large");
+ start(4, "medium");
 // Before the code
 
 //Arrays
